@@ -18,7 +18,7 @@ if not se_key:
     sys.exit(0)
 
 
-MAX_QUESTIONS = 5
+MAX_QUESTIONS = 10
 
 
 app = Flask(__name__)
@@ -62,7 +62,7 @@ def overflow():
 
 @app.route('/')
 def hello():
-    return redirect('https://github.com/karan/slack-overflow')
+    return redirect('https://github.com/tf-oikawa/slack-overflow')
 
 
 if __name__ == '__main__':

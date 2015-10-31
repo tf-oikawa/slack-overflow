@@ -15,7 +15,7 @@ From any Slack channel, just type `/overflow [search terms]`. The questions will
 3. Scroll all the way down to **DIY Integrations & Customizations section**.
 4. Click on **Add** next to **Slash Commands**.
   - Command: `/overflow`
-  - URL: `http://so.goel.io/overflow`
+  - URL: `http://{App Domain}/overflow`
   - Method: `POST`
   - For the **Autocomplete help text**, check to show the command in autocomplete list.
     - Description: `A programmer's best friend, now in Slack.`
